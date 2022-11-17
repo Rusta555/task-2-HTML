@@ -16,47 +16,48 @@
     <header>
         <div class="headerLeft">
                         <ul  class="supportBar">
-                <li><span class="support">Dəstək xidməti:</span><a data-register-call="true" href="#"><span>(012) 599-08-02</span></a>
-                    <a><span>;</span></a>
-                    <a data-register-call="true" href="#"><span>(012) 505-08-02</span></a>
-                </li>
-            </ul>
+                            <li><span class="support">Dəstək xidməti:</span><a data-register-call="true" href="#"><span>(012) 599-08-02</span></a>
+                                <a><span>;</span></a>
+                                    <a data-register-call="true" href="#"><span>(012) 505-08-02</span></a>
+                            </li>
+                        </ul>
 
-             <ul class="auxilaryBar">
+                        <ul class="auxilaryBar">
 
-                <li >
-                    <label for="language"><span></i>Dil secimi</span></label>
-                    <select name="language" id="language">
-                         <option value="">RU</option>
-                        <option value="">AZ</option>
-                    </select>
-                </li>
-                <li>
-                    <a href="#"><i class="heart"></i><span>Seçilmişlər</span></a>
-                </li>
-                <li>
-                     <a href="#"><i></i><span>Giriş</span></a>
-                 </li>
-             </ul>                   
+                            <li >
+                                <label for="language"><span></i>Dil secimi</span></label>
+                                    <select name="language" id="language">
+                                    <option value="">RU</option>
+                                    <option value="">AZ</option>
+                                    </select>
+                            </li>
+                            <li>
+                                <a href="#"><i class="heart"></i><span>Seçilmişlər</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i></i><span>Giriş</span></a>
+                            </li>
+                        </ul>                   
         </div>
-        <div class="headerTopNav">           
+        <div class="headerTopNav"> 
+            <nav>          
                 <ul>
                     <li>
                               <a class="homePage" href="#"><h1><span>BINA.AZ</span></h1></a>
                           <li>
-                              <a class="trading" href="#"><span>Alqı satqı</span></a>
+                              <a href="#"><span>Alqı satqı</span></a>
                           </li>
                           <li>
-                              <a class="rent" href="#"><span>Kirayə</span></a>
+                              <a href="#"><span>Kirayə</span></a>
                           </li>
                           <li>
-                               <a class="agencies" href="#"><span>Agentliklər</span></a>
+                               <a href="#"><span>Agentliklər</span></a>
                           </li>
                           <li>
-                              <a class="residencies" href="#"><span>Yaşayış kompleksləri</span></a>
+                              <a href="#"><span>Yaşayış kompleksləri</span></a>
                           </li>   
                          <li>
-                             <a class="announcement" href="#"><i class="plus"></i><span>Yeni elan</span></a>
+                             <a href="#"><i class="plus"></i><span>Yeni elan</span></a>
                          </li>                               
                     </li>
                 </ul>
@@ -82,15 +83,15 @@
                                          <option value=""><span class="label">Ofis</span>
                                             </select>
                 
-                 <div class="select scroll">
-                 <select>
+                    <div class="select scroll">
+                    <select>
                        <option><span class="label">Otag sayi</span></option>                
                         <option value="">1 otag</option>
                              <option value="">2 otag</option>
                                  <input type="radio">Istenilen otag sayi</input>
                                   
-                  </select>
-                            </div>
+                    </select>
+                    </div>
                 <div class="filterRight">
                     <select>       
                     <option value="wrappedFilterRowTop"><span>Etrafli axtarish</span></option>  
@@ -105,8 +106,10 @@
                             <label class="checkLabel" for="q-extras-1">Təmirsiz</label>
                     </div>
                 </div>
-        </div>
-    </header>
+            </div>
+        </nav>
+    </div>
+</header>
 
     <!-- main part of page-->
 
@@ -114,16 +117,16 @@
 <article> 
     <section class="quickLink">
         <!--this bar will be over forrent section bar and will seen on default, will be hidden when you choose forrent "Kiraye" -->
-        <section class="forsale">
-            <div ></div>
+        <div class="forsale">
+
                 <ul>
                     <li>
                         <a class="topQuickLink" target="_blank"  href="#">Alış</a>
                     </li>
                 </ul>
-           
-                    <section>
-                    <article>Yeni tikililer</article>
+<!----------------------------------->
+                    <div>
+                    <text class="title">Yeni tikililer</text>
                         <nav>
                             <ul>
                                 <li class="quickLink">
@@ -153,10 +156,10 @@
                                 </li>
                             </ul>
                         </nav> 
-                    </section>
-
-                    <section>
-                    <article>Kohne tikililer</article> 
+                    </div>
+<!----------------------------------->
+                    <div>
+                    <text class="title">Kohne tikililer</text> 
                         <nav>           
                             <ul>
                                 <li>
@@ -184,10 +187,10 @@
                                 </li>
                             </ul>
                         </nav>
-                    </section>
-
-                    <section>
-                    <article>Yaşayış obyektleri</article>
+                    </div>
+<!----------------------------------->
+                    <div>
+                    <text class="title">Yaşayış obyektleri</text>
                         <nav>        
                             <ul>
                                 <li>
@@ -215,25 +218,22 @@
                                 </li>
                             </ul>
                         </nav>
-                    </section>
-        </section>            
+                    </div>            
             
                     <!--this bar will be hidden under for sale "Alish" section bar and will open when you choose forrent "Kiraye" -->
 
-    <section class="forrent">
-                
+    <div class="forrent">                
                 <ul>
                     <li>
                         <a class="topQuickLink" target="_blank" href="#" name="forrent">Kirayə</a>
                     </li>
                 </ul>
-
-                    <section>
-                        <article><span>Yeni tikililer</span></article>
+                    <div>
+                        <text class="title"><span>Yeni tikililer</span></text>
                             <nav>
                                 <ul>
                                     <li class="quickLink">
-                                    <a href="#">1 otaqli</a>
+                                        <a href="#">1 otaqli</a>
                                     </li>
                                 </ul>
                                 <ul>
@@ -243,7 +243,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                     <a href="#">3 otaqli</a>
+                                        <a href="#">3 otaqli</a>
                                     </li>
                                 </ul>
                                 <ul>
@@ -259,9 +259,10 @@
                                     </li>
                                 </ul>
                             </nav>
-                            </section>
-                        <section>
-                            <article><span>Kohne tikililer</span></article> 
+                    </div>
+<!----------------------------------->
+                        <div>
+                            <text class="title"><span>Kohne tikililer</span></text> 
                                 <nav>           
                                     <ul>
                                         <li>
@@ -274,7 +275,7 @@
                                         </li>
                                     </ul>
                                     <ul>
-                                                <li>
+                                        <li>
                                             <a href="#">3 otaqli</a>
                                         </li>
                                     </ul>
@@ -289,42 +290,40 @@
                                         </li>
                                     </ul>
                                     </nav>
-                            </section>
-
-                            <section>
-                                <article><span>Yaşayış obyektleri</span></article>
-
-                                <nav>
-                                
-                                    <ul>
-                                        <li>
-                                            <a href="#">Menziller</a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Yeni tikililer</a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Kohne tikililer</a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Evler / Villalar</a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Bağlar</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </section>
-        </section>
-            
+                        </div>
+<!----------------------------------->
+                            <div>
+                                <text class="title"><span>Yaşayış obyektleri</span></text>
+                                    <nav>                                
+                                        <ul>
+                                            <li>
+                                                <a href="#">Menziller</a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Yeni tikililer</a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Kohne tikililer</a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Evler / Villalar</a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Bağlar</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                            </div>
+<!----------------------------------->
+        <div class="">            
             <ul>
                 <li>
                     <a class="topQuickLink" target="_blank" href="#"><span>Bugun - </span>
@@ -332,26 +331,25 @@
                     <span>yeni elan</span></a>
                 </li>
             </ul>
-        </section> 
-    </section> 
-    
-<section>
-<nav class="main">
-        <section id="vipAdd" class="container">
-            <title>Vip Elanlar!</title>
-                <figure>
-                    <img src="" alt="" />
-                    <figcaption>
+        </div> 
+    </section>
+    <section>  
+        <div>
+                <nav class="main">
+                        <div name="vipAdd" class="container">
+                        <title>Vip Elanlar!</title>
+                        <figure>
+                        <img src="" alt="" />
+                        <figcaption>
                         <p>500000<span>AZN</span></p>
                         <p><span>20 Yanvar m,</span></p>
                         <p><span>3 otaqli</span><span>73.3m²,</span><span>5/17 mertebe</span></p>
                         <p><span>Baku</span><span>22.08.22</span><span>12.23</span></p>
-                    </figcaption>
-                </figure>
-        </section>
-            <section id="premiumAdd" class="container">
+                        </figcaption>
+                        </figure>
+                        </div>
+                <div id="premiumAdd" class="container">
                 <title>Premium Elanlar!</title>
-
                     <figure>
                         <img src="" alt="" />
                         <figcaption>
@@ -361,12 +359,14 @@
                         <p><span>Baku</span><span>22.08.22</span><span>12.23</span></p>
                         </figcaption>
                     </figure>
-                </>
-            </section>
-
-            <section class="thumblist">
-                <div class="title">Populyar axtarishlar</div>
-
+                </div>
+                </nav>
+        </div>
+    </section>
+    <section>
+        <div class="title">
+            <nav>
+                    <text>Populyar axtarishlar</text> 
                     <ul>
                         <li>
                             <a target="_blank" href="#">Yeni ev elanlari</a>
@@ -386,9 +386,8 @@
                             <a target="_blank" href="#">dashinmaz emlak</a>
                         </li>
                     </ul>
-
-            </section>
-        </nav>
+            </nav>
+        </div>
     </section>
 </article>
 </main>
@@ -397,7 +396,8 @@
     <!--FOOTER-->
 
     <footer class="footer">
-    <nav>
+   
+            <div class="support">
             <ul>
                 <li>
                     <a href="#"><span class="support">Reklam yerleshdirin</span></a>
@@ -410,9 +410,14 @@
                     <a data-register-call="true" href="#"><span>(012) 505-08-02</span></a>
                 </li>
             </ul>
-                    <ul>
-                        <li>
-                            <titl>Baki rayonlari</titl>
+            </div>
+    <div class="regions">
+
+        <nav>
+
+            <div class="city">
+                
+                 <text class="title"><span>Bakinin rayonlari</span></text>
                                 <li>
                                     <a href="#">Nizami</a>
                                 </li>
@@ -430,28 +435,29 @@
                                 </li>
                         </li>
                     </ul>
-                    <ul>
+            </div>       
+                <div class="country">
+
+                    <text class="title"><span>Butun Azerbaycan</span></text>
+                         <li>
+                            <a href="#">Absheron</a>
+                        </li>
                         <li>
-                            <title>Butun Azerbaycan</title>
-                                <li>
-                                    <a href="#">Absheron</a>
-                                </li>
-                                <li>
-                                    <a href="#">Agcebedi</a>
-                                </li>
-                                <li>
-                                    <a href="#">Balaken</a>
-                                </li>
-                                <li>
-                                    <a href="#">Beyleqan</a>
-                                </li>
-                                <li>
-                                    <a href="#">Celilabad</a>
-                                </li>
+                            <a href="#">Agcebedi</a>
+                        </li>
+                        <li>
+                            <a href="#">Balaken</a>
+                        </li>
+                        <li>
+                            <a href="#">Beyleqan</a>
+                        </li>
+                        <li>
+                            <a href="#">Celilabad</a>
                         </li>
                     </ul>
-
-                </nav>
+                </div>
+            </nav>
+        </div>
     </footer>
 
 </body>
